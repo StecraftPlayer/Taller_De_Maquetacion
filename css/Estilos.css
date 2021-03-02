@@ -1,0 +1,100 @@
+                            /* Color del Boby */
+body{
+
+    background: white;
+    font-family: Arial;
+    
+}
+
+                            /* Resolucion de la Pagina */
+
+
+header, footer { 
+    
+    width: 100%;                             
+    max-width: 2000px;
+     
+}
+
+                            /* Propiedades de Header */
+header{
+
+    
+    background: white;
+    padding-top: 50px;
+    height: 200px;
+    
+}
+                            /* Logo Del Header */
+header article .img_Header { 
+    padding-top: 20px;   
+    padding-right: 20px;   
+    padding-left: 525px;                
+    float: left; 
+    
+} 
+                            /* Tamaño de La imagen del Header */
+Header .img_Header a img {
+    width: Auto;    
+}
+                            /* Menu */
+header article nav {
+    background: #fff; 
+    overflow: hidden;                           
+    padding: 80px;         
+    display: inline-block;                       
+
+} 
+                            /* Botones Home, Layouts y Elements */
+header article nav .Boton { 
+    font-size: 20px;
+    text-decoration: none;
+    color: #000; 
+    padding: 20px;                                 
+} 
+                            /* Interaccion de Botones Home, Layouts y Elements */
+header article nav a.Boton:hover {
+    
+    color: red;
+}
+                            /* Espacio Entre Sign Up y el resto de botones */
+header article nav .Espacio { 
+    padding: 10px;                                 
+} 
+                              /* Boton Sign Up */  
+header article nav .Sing_Up { 
+    
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px ;
+    background-color: #E84965;
+    color: #fff; 
+    border-radius: 10%; 
+} 
+                            /* Interaccion de Boton Sign Up */
+header article nav .Sing_Up:hover {
+    
+    border-radius: 50%;
+    color: #fff;
+}
+                            /* Espacio En Blanco */
+section{
+
+    height: 300px;
+    width: 50%;
+}
+                            /* Propiedades del Footer */
+footer{
+    color: #fff;
+    padding-top: 50px;
+    height: 200px;
+    line-height: auto;
+    background: rgb(95, 95, 95);
+    text-align: center;
+    font-size: 15px;
+    
+}
+                            /* Tamaño de La imagen del Footer */
+footer .img_Footer a img {
+    width: auto;    
+}
